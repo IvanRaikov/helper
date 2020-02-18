@@ -4,6 +4,7 @@
     float:left;
     background-color:rgba(40,40,40,.8);
     border-radius:5px;
+    width:34%;
 }
 #calendar table{
     background-color:rgba(80, 80, 80, .5);
@@ -13,13 +14,14 @@
     margin:0  0 0 0px;
     border-radius:3px;
     border:1px solid black;
+    width:100%;
 }
 #calendar caption{
     margin-bottom:10px;
     font-size:25px;
 }
 #calendar td, #calendar th{
-    padding:20px;
+    padding:10px;
     border-radius:5px;
     transition:.2s;
 }
@@ -59,8 +61,8 @@
 }
 #taskList, #taskForm, #taskRead{
     background-color:rgba(40,40,40,.8);
-    width:450px;
-    height:570px;
+    width:28%;
+    height:520px;
     float:left;
     margin-left:20px;
     border-radius:5px;
@@ -78,7 +80,7 @@
 }
 #taskList ul, #taskForm form, #taskReadContent{
     background-color:rgba(80, 80, 80, .5);
-    height:500px;
+    height:430px;
     border:1px solid black;
     border-radius:5px;
     margin-top:10px;
@@ -99,26 +101,29 @@
 #editTask{
     position:absolute;
     bottom:5px;
-    right:300px;
+    right:230px;
+    font-size:16px;
 }
 #checkTask{
     position:absolute;
     bottom:5px;
-    right:150px;
+    right:106px;
+    font-size:16px;
 }
 #removeTask{
     position:absolute;
     bottom:5px;
-    right:30px;
+    right:5px;
+    font-size:16px;
 }
 #newTask{
     position:absolute;
-    top:630px;
+    top:440px;
     left:160px;
 }
 #taskForm input, #taskForm label{
     display:block;
-    width:97%;
+    width:99%;
     font-size:18px;
     padding:4px;
     margin-bottom:5px;
@@ -127,6 +132,8 @@
 #taskForm textarea{
     border-radius:5px;
     margin:0 0 20px 0;
+    width:97%;
+    height:140px;
 }
 #taskForm input[name='submit']{
     width:150px;
