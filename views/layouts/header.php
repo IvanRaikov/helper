@@ -19,15 +19,15 @@
                         <li><a href="/article"><i class="fa fa-book"></i>Новая запись</a></li>
 			<li><a href=""><i class="fa fa-edit"></i>Изменить категорию</a>
 				<ul>
-                                    <?php foreach($categories as $category):?>
-                                    <li><a href="/category/update/<?= $category['id'] ?>"><?= $category['name'] ?></a></li>
+                                    <?php foreach($categories as $cat):?>
+                                    <li><a href="/category/update/<?= $cat['id'] ?>"><?= $cat['name'] ?></a></li>
                                     <?php endforeach;?>
 				</ul>
 			</li>
 			<li><a href=""><i class="fa fa-trash"></i>Удалить категорию</a>
 				<ul>
-                                    <?php foreach($categories as $category):?>
-                                    <li><a href="/category/delete/<?= $category['id'] ?>"><?= $category['name'] ?></a></li>
+                                    <?php foreach($categories as $cat):?>
+                                    <li><a href="/category/delete/<?= $cat['id'] ?>"><?= $cat['name'] ?></a></li>
                                     <?php endforeach;?>
 				</ul>
 			</li>
