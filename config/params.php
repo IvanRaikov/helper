@@ -2,4 +2,4 @@
 return array('host'=>'localhost',
              'username'=>'root',
              'dbname'=>'helper',
-             'password'=>'');
+             'password'=>'123');

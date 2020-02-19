@@ -123,7 +123,3 @@ textarea{
     transition:.2s;
     background:linear-gradient(90deg, black, rgba(21, 57, 51, 0.7), black);
 }
-#categoryList{
-    height:500px;
-    overflow:scroll;
-}

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/template/css/font-awesome.css">
     <link rel="stylesheet" href="/template/css/menu.css">
     <link rel="stylesheet" href="/template/css/task-calendar.css">
-    <script src="/template/ckeditor/ckeditor.js"></script>
+    <script src="/vendor/ckeditor/ckeditor/ckeditor.js"></script>
     <script src="/template/java-script/clock.js"></script>
 </head>
 <body>
